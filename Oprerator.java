@@ -11,7 +11,7 @@ public class Oprerator {
          int result =a++;
        //  int result1=b++;
         //System.out.println("a is : "+a);
-        //System.out.println("b is : "+b);
+        System.out.println("b is : "+b);
         System.out.println("result is a: "+result);
         //System.out.println("result1 is b: "+result1);
 
