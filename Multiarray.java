@@ -17,6 +17,7 @@ public class Multiarray{
         }
         System.out.println();
         }
+        // this is new  array printing method 
 for(int n[]:num){
     for(int m:n){
         System.out.print(m+" ");
