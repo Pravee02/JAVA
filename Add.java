@@ -1,4 +1,4 @@
-class Calculator {
+class Calculator{
     int n1=10;
     int n2=10;
     public int add(int n1,int n2){
@@ -6,7 +6,7 @@ class Calculator {
         return r;   
     }
 }
-public class ADD_2NUMBERS
+public class Add
 {
     public static void main(String[] args)
     {
@@ -14,6 +14,6 @@ public class ADD_2NUMBERS
         Calculator calc=new Calculator();
         int result=calc.add(calc.n1,calc.n2);
         System.out.println("result is: "+result);
-
+        System.out.println(calc.n1);
     }
 }
