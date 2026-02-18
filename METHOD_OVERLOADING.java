@@ -1,3 +1,17 @@
+/* Method Overloading means:
+
+ ->Same method name
+ ->ame class
+ ->Different parameters
+
+Overloading depends on:
+
+Number of parameters
+Type of parameters
+Order of parameters
+
+It does NOT depend on return type.*/
+
 class Calculator
 {
     int num=5;
