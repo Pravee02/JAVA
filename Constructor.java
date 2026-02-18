@@ -26,3 +26,17 @@ class Constructor {
     }
 }
 // also example for overloading 
+
+/* “A constructor is a special method used to initialize objects and is executed automatically when an object is created.”
+
+A constructor is a special method that:
+
+* Has the same name as the class
+* Has no return type
+* Runs automatically when an object is created
+* Is used to initialize (give values to) variables
+* Can be overloaded
+
+Types of Constructor---
+1️. Default Constructor (no parameters)
+2️. Parameterized Constructor (with parameters)
