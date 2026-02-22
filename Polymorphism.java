@@ -30,13 +30,15 @@
 //Run Time Polimorphism(overriding)
 
 class Animal {
-    void sound() {
+    public void sound() {
         System.out.println("Animal sound");
     }
 }
 
 class Dog extends Animal {
-    void sound() {
+
+    
+    public void sound() {
         System.out.println("Dog barks");
     }
 }
@@ -46,6 +48,7 @@ public class Polymorphism{
         a.sound();
         Animal b=new Animal();
         b.sound();
+        
     }
 }
 
