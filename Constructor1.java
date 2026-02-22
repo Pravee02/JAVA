@@ -1,9 +1,10 @@
 class Car {
     String color;
-    Car() {   // Default constructor
+    Car() { 
+         // Default constructor
         System.out.println("Car created");
     }
-
+//there is no same parameters for both construcor 
 
 // Parameterized constructor 
     
@@ -19,7 +20,7 @@ class Car {
 
 class Constructor1{
     public static void main(String args[]) {
-        Car c1 = new Car();
+        Car c1 = new Car("Green");
             c1.display();
          Car c2 = new Car("Blue");
          c2.display();
