@@ -7,7 +7,7 @@ class Animal {
 
 class Dog extends Animal {
     // Overriding method
-    @Override
+    
     void move() {
         System.out.println("Dogs can walk and run");
     }

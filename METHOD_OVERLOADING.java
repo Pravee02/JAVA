@@ -1,7 +1,7 @@
 /* Method Overloading means:
 
  ->Same method name
- ->ame class
+ ->Same class
  ->Different parameters
 
 Overloading depends on:
@@ -11,25 +11,20 @@ Type of parameters
 Order of parameters
 
 It does NOT depend on return type.*/
-
-class Calculator
-{
-    int num=5;
-
-    public int add(int n1,int n2)
-    {
-    return n1+n2;
+class Calculator{
+    int num=10;
+    int add(int a,int b){
+        return a+b;
+    
+    }
+     int add(int a, int b,int c){
+        return a+b+c;
+    }
+    double add(double a, int b){
+        return a+b;
+    }
 }
 
-   public int add(int n1,int n2,int n3)
-    {
-    return n1+n2+n3;
-}
-   public double add(double n1,int n2)
-    {
-    return n1+n2;
-}
-}
 public class METHOD_OVERLOADING {
     public static void main(String[] args){
         Calculator calc=new Calculator();
