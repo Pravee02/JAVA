@@ -26,7 +26,7 @@ public void setage(int age){
 public int getmarks(){
     return marks;
 }
-//setter for marks
+//setter for marks  
 public void setmarks(int marks){
     if(marks>=0&&marks<=100){
     this.marks=marks;
