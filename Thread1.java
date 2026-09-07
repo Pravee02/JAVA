@@ -36,6 +36,10 @@ public class Thread1
 
         
         obj1.start();
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException e) { e.printStackTrace();
+        }
         obj2.start();
     }
 }
