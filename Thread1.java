@@ -1,6 +1,8 @@
- import java.util.*;;
- class a extends Thread
-{
+ import java.util.*;
+
+
+ class a implements Runnable
+ {
  public void run()
  {
     for(int i=0;i<=100;i++)
@@ -13,7 +15,7 @@
     }
  }   
 }
-class b extends Thread{
+class b implements Runnable{
      public void run()
  {
     for(int i=0;i<=100;i++)
@@ -31,15 +33,18 @@ public class Thread1
 {
     public static void main(String[] args)
     {
-        a obj1 = new a();
-        b obj2 = new b();
+        Runnable obj1 = new a(); //it is a runnable object 
+        b obj2 = new b();        0//it is a runnable object
 
+        Thread t1 = new Thread(obj1); //thread constructor can take runnable object 
+         Thread t2 = new Thread(obj2);
         
-        obj1.start();
-        try {
-            Thread.sleep(10);
-        } catch (InterruptedException e) { e.printStackTrace();
-        }
-        obj2.start();
+        //obj1.start(); // implemnts runnable not have start method
+        //obj2.start();// implemnts runnable not have start method
+        //start method only in threads
+
+
+        t1.start();
+        t2.start();
     }
 }
